@@ -6,7 +6,7 @@ import { bgImg } from '../utils/'
 import '../styles/classicmens.scss';
 
 const ClassicMens = () => (
-  <div className="barbershop">
+  <div id="classic-mens" className="barbershop">
     <Helmet>
       <meta charset="utf-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -24,9 +24,11 @@ const ClassicMens = () => (
       <meta property="business:contact_data:region" content="New York" />
       <meta property="business:contact_data:postal_code" content="11751" />
       <meta property="business:contact_data:country_name" content="United States" />
+
+      <link rel="preload" as="image" href={require("../assets/classicmens.jpg")} />
     </Helmet>
 
-    <Jumbo title="Classic Mens West" bgUrl={require("../assets/classicmens.jpg")} />
+    <Jumbo title="Classic Mens West" />
 
     <section id="services">
       <div className="pure-g">

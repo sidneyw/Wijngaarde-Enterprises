@@ -1,13 +1,18 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import Jumbo from '../components/Jumbo'
+import Helmet from 'react-helmet'
 
 import { bgImg } from '../utils/'
 import '../styles/cuttingedge.scss'
 
 const CuttingEdge = () => (
   <div className="barbershop">
-    <Jumbo title="Cutting Edge Bay Shore" bgUrl={require('../assets/cuttingedge.jpg')} />
+    <Helmet>
+      <link rel="preload" as="image" href={require("../assets/classicmens.jpg")} />
+    </Helmet>
+
+    <Jumbo title="Cutting Edge Bay Shore" />
 
     <section id="services">
       <div className="pure-g">
