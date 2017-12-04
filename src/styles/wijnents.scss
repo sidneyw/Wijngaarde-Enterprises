@@ -5,6 +5,9 @@
 
 @import "base";
 .index {
+    .landing {
+        background-image: url('../assets/ny-skyline-mobile.jpg');
+    }
     // ------------------------------------
     // Businesses
     // ------------------------------------
@@ -43,7 +46,7 @@
         color: #fff;
 
         & > .darken {
-            height: 50vh;
+            height: 80vh;
             display: flex;
             flex-flow: column;
             justify-content: center;
@@ -68,13 +71,14 @@
         }
     }
 
-    #map {
+    #contact-wrap {
+        background-image: url("../assets/wood-mobile.jpg");
         margin:0;
         // background-color: $darkGrey;
         background-position: center center;
         background-size: cover;
         // background-attachment: fixed;
-        height: 60vh;
+        height: 80vh;
         justify-content: center;
         align-items: center;
         align-content: center;
@@ -147,6 +151,7 @@
 @media screen and (min-width: 48em) {
     .index {
         .landing {
+            background-image: url('../assets/ny-skyline.jpg');
             h1 {
                 font-size: 5em;
                 margin-bottom: 5vh;
@@ -165,6 +170,10 @@
 
         .card:first-of-type {
             margin-right: 5vw;
+        }
+
+        #contact-wrap {
+            background-image: url(../assets/wood.jpg);
         }
 
         #contact .card {

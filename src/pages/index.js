@@ -27,11 +27,12 @@ const IndexPage = () => (
       <meta property="business:contact_data:country_name" content="United States" />
 
       <link rel="preload" href={require('../assets/ny-skyline.jpg')} as="image" type="image/jpg" />
+
+      <link rel="prefetch" href={require('../assets/cuttingedge.jpg')} as="image" type="image/jpg" />
+      <link rel="prefetch" href={require('../assets/classicmens.jpg')} as="image" type="image/jpg" />
+      <link rel="prefetch" href={require('../assets/wijnents-about.jpg')} as="image" type="image/jpg" />
     </Helmet>
 
-    <link rel="prefetch" href={require('../assets/cuttingedge.jpg')} as="image" type="image/jpg" defer />
-    <link rel="prefetch" href={require('../assets/classicmens.jpg')} as="image" type="image/jpg" defer />
-    <link rel="prefetch" href={require('../assets/wijnents-about.jpg')} as="image" type="image/jpg" defer />
 
     <Jumbo
       title="Wijngaarde Enterprises"
@@ -103,7 +104,7 @@ const IndexPage = () => (
     <section id="contact">
       <h1 className='z-depth-3'>Get In Touch</h1>
 
-      <div id="map" style={bgImg(require('../assets/wood.jpg'))} className="pure-g">
+      <div id="contact-wrap" style={bgImg(require('../assets/wood.jpg'))} className="pure-g">
         <div className="pure-u-2-3 pure-u-md-3-5 card z-depth-2">
           <div className="pure-u-1 pure-u-md-1-2 brand">
             <h3>Wijngaarde Enterprises</h3>
