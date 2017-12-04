@@ -1,25 +1,26 @@
 @import "cuttingedge";
 
-// pure-xl
-@media screen and (min-width: 80em) {
+// pure-sm
+@media screen and (min-width: 35.5em) {
 
+}
+
+// pure-md
+@media screen and (min-width: 48em) {
+    .barbershop {
+        #services {
+            .pure-g {
+                width: 70vw;
+            }
+        }
+    }
 }
 
 //pure-lg
 @media screen and (min-width: 64em) {
 
 }
-
-// pure-md
-@media screen and (min-width: 48em) {
-    #services {
-        .pure-g {
-            width: 70vw;
-        }
-    }
-}
-
-// pure-sm
-@media screen and (min-width: 35.5em) {
+// pure-xl
+@media screen and (min-width: 80em) {
 
 }

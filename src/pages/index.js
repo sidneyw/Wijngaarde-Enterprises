@@ -29,7 +29,7 @@ const IndexPage = () => (
 
     <Jumbo
       title="Wijngaarde Enterprises"
-      bgUrl={require('../assets/wijnents-landing.jpg')} />
+      bgUrl={require('../assets/ny-skyline.jpg')} />
 
     <section id="businesses">
       <h2>We're Open For Business</h2>
@@ -62,9 +62,9 @@ const IndexPage = () => (
             <h3>Classic Mens West</h3>
             <p>This community staple has been serving the Islip area now for over 20 years. Stop in or give us a call; we are here to service your needs.</p>
             <div className="card-icon-wrap">
-              <a className="pure-button button-primary" href="/classNameicmens.html">
+              <Link className="pure-button button-primary" to="/classic-mens">
                 <i className="fa fa-external-link"></i>Visit Our Site
-              </a>
+              </Link>
               <a className="pure-button button-primary">
                 <i className="fa fa-facebook"></i>
               </a>
@@ -95,10 +95,10 @@ const IndexPage = () => (
     </section>
 
     <section id="contact">
-      <h1>Get In Touch</h1>
+      <h1 className='z-depth-3'>Get In Touch</h1>
 
-      <div id="map" style={bgImg(require('../assets/map-dark.png'))} className="pure-g">
-        <div className="pure-u-2-3 pure-u-md-3-5 card">
+      <div id="map" style={bgImg(require('../assets/wood.jpg'))} className="pure-g">
+        <div className="pure-u-2-3 pure-u-md-3-5 card z-depth-2">
           <div className="pure-u-1 pure-u-md-1-2 brand">
             <h3>Wijngaarde Enterprises</h3>
           </div>

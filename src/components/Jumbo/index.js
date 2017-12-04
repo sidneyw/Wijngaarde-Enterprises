@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { bgImg } from '../..//utils/'
+import { bgImg } from '../../utils/'
 import './styles.scss'
 
 const ChimpForm = `

@@ -6,7 +6,7 @@ import { bgImg } from '../utils/'
 import '../styles/cuttingedge.scss'
 
 const CuttingEdge = () => (
-  <div>
+  <div className="barbershop">
     <Jumbo title="Cutting Edge Bay Shore" bgUrl={require('../assets/cuttingedge.jpg')} />
 
     <section id="services">
