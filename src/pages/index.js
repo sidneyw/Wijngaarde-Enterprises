@@ -27,10 +27,11 @@ const IndexPage = () => (
       <meta property="business:contact_data:country_name" content="United States" />
 
       <link rel="preload" href={require('../assets/ny-skyline.jpg')} as="image" type="image/jpg" />
-      <link rel="prefetch" href={require('../assets/cuttingedge.jpg')} as="image" type="image/jpg" />
-      <link rel="prefetch" href={require('../assets/classicmens.jpg')} as="image" type="image/jpg" />
-      <link rel="prefetch" href={require('../assets/wijnents-about.jpg')} as="image" type="image/jpg" />
     </Helmet>
+
+    <link rel="prefetch" href={require('../assets/cuttingedge.jpg')} as="image" type="image/jpg" defer />
+    <link rel="prefetch" href={require('../assets/classicmens.jpg')} as="image" type="image/jpg" defer />
+    <link rel="prefetch" href={require('../assets/wijnents-about.jpg')} as="image" type="image/jpg" defer />
 
     <Jumbo
       title="Wijngaarde Enterprises"
