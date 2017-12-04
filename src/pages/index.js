@@ -25,6 +25,11 @@ const IndexPage = () => (
       <meta property="business:contact_data:region" content="New York" />
       <meta property="business:contact_data:postal_code" content="11706" />
       <meta property="business:contact_data:country_name" content="United States" />
+
+      <link rel="preload" href={require('../assets/ny-skyline.jpg')} as="image" type="image/jpg" />
+      <link rel="prefetch" href={require('../assets/cuttingedge.jpg')} as="image" type="image/jpg" />
+      <link rel="prefetch" href={require('../assets/classicmens.jpg')} as="image" type="image/jpg" />
+      <link rel="prefetch" href={require('../assets/wijnents-about.jpg')} as="image" type="image/jpg" />
     </Helmet>
 
     <Jumbo
