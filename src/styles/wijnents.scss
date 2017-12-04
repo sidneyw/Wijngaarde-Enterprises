@@ -1,0 +1,190 @@
+@import "./vendor/pure-scss/pure-min";
+@import "./vendor/pure-scss/grids-responsive-min";
+@import "shadows";
+@import "./vendor/font-awesome-4.7.0/css/font-awesome.min.css";
+
+@import "base";
+.index {
+    // ------------------------------------
+    // Businesses
+    // ------------------------------------
+    #businesses {
+        background-color: $offWhite;
+        color: $darkGrey;
+        padding: 5vh 0;
+
+        h2 {
+            text-align: center;
+            font-size: 2.5em;
+            // color: #fff;
+        }
+    }
+
+    .card-wrap {
+        justify-content: center;
+    }
+
+    .card-icon-wrap {
+        // display: flex;
+        // justify-content: space-around;
+        // font-size: 2em;
+    }
+
+    #bayshore, #classicmens {
+        background-position: center center;
+        background-size: cover;
+        height: 30vh;
+    }
+
+    #about {
+        background-position: center center;
+        background-size: cover;
+
+        color: #fff;
+
+        & > .darken {
+            height: 50vh;
+            display: flex;
+            flex-flow: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        h1 {
+            text-shadow: $headerShadow;
+        }
+    }
+
+    #contact {
+        margin: 0;
+        padding: 0;
+
+        h1 {
+            margin: 0;
+            padding: 1.5vh 0;
+            color: $darkGrey;
+            text-align: center;
+            background-color: $offWhite;
+        }
+    }
+
+    #map {
+        margin:0;
+        // background-color: $darkGrey;
+        background-position: center center;
+        background-size: cover;
+        background-attachment: fixed;
+        height: 60vh;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        padding: 20px 0;
+
+        .card {
+            max-width: 650px;
+            margin: 0;
+            display: flex;
+            flex-flow: column;
+            padding: 30px 30px 10px;
+
+            background-color: #fff;
+            color: $darkGrey;
+
+            a, a:visited {
+                color: $darkGrey;
+            }
+        }
+
+        .brand {
+            text-align: center;
+            font-size: 2em;
+        }
+
+        .info {
+            display: flex;
+            flex-flow: column;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            margin: 5vh 0;
+
+            & > div:first-of-type {
+                display: flex;
+                flex-flow: column;
+                justify-content: center;
+                align-items: center;
+                align-content: center;
+            }
+
+            font-size: 1.3em;
+
+            p { text-align: center; }
+            a {
+                margin-top: 10px;
+                text-align: left;
+                i { margin-right: 10px; }
+            }
+        }
+
+        .social {
+            margin-top: 5vh;
+            font-size: 1.5em;
+        }
+    }
+}
+
+// pure-xl
+@media screen and (min-width: 80em) {
+
+}
+
+//pure-lg
+@media screen and (min-width: 64em) {
+
+}
+
+// pure-md
+@media screen and (min-width: 48em) {
+    .index {
+        .landing {
+            h1 {
+                font-size: 5em;
+                margin-bottom: 5vh;
+            }
+        }
+
+        #businesses {
+            h2 {
+                font-size: 3.5em;
+            }
+        }
+
+        .card-wrap {
+            justify-content: center;
+        }
+
+        .card:first-of-type {
+            margin-right: 5vw;
+        }
+
+        #contact .card {
+
+            .brand {
+                align-self: center;
+                font-size: 2.5em;
+            }
+
+            flex-flow: row;
+
+            .social {
+                font-size: 3em;
+                a { margin: 5vh 2vw 0; }
+            }
+        }
+    }
+}
+
+// pure-sm
+@media screen and (min-width: 35.5em) {
+
+}

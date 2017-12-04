@@ -1,0 +1,153 @@
+// ------------------------------------
+// Site Theme
+// ------------------------------------
+
+// ------------------------------------
+// Variables
+// ------------------------------------
+$headerShadow: 1px 1px 10px rgba(0, 0, 0, 0.6);
+$offWhite: #f8f8f8;
+$darkGrey: #121212;
+
+$primary: #1F88BB;
+$secondary: darken($primary, 10%);
+$tertiary: #FF4E20;
+
+// ------------------------------------
+// Global
+// ------------------------------------
+* { margin: 0; padding: 0; }
+html {
+    width: 100vw!important;
+    font-family: "Open Sans", sans-serif;
+    overflow-x: hidden;
+}
+
+// section {
+//     width: 100vw!important;
+// }
+
+h1 {
+    font-size: 3.0em;
+}
+
+h1, h2, {
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Bitter", serif;
+}
+
+a, a:visited {
+    text-decoration: none;
+    color: #fff;
+}
+
+#mc_embed_signup {
+    clear:left;
+    // font:14px Bitter,Helvetica,sans-serif;
+    width:100%;
+
+    label { letter-spacing: 0.1em; }
+}
+// ------------------------------------
+// Classes
+// ------------------------------------
+.darken {
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 100%;
+}
+
+[class^="button-"] {
+    i { margin-right: 10px; }
+}
+
+.button-primary {
+    background-color: $primary;
+    color: #fff;
+}
+
+.button-google {
+    background-color: #DD4B39;
+    color: #fff;
+    margin-right: 5px;
+}
+
+.button-secondary {
+    background-color: $secondary;
+    color: #fff;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 3px;
+
+    margin: 2.5vh 0;
+}
+
+.card-body {
+    box-sizing: border-box;
+    padding: 10px;
+    h3 {
+        margin: 1.5vh 0;
+        text-align: center;
+        font-size: 2em;
+    }
+
+    p {
+        margin: 0 0 2.5vh;
+    }
+
+    a {
+        float: right;
+    }
+
+    a:first-of-type {
+        float: left;
+        i {
+            margin-right: 10px;
+        }
+    }
+}
+
+// ------------------------------------
+// Mail Chimp Subscribe Responsive Form
+// ------------------------------------
+#mc_embed_signup_scroll {
+    margin: 0 auto;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    input {
+        margin-top: 2vh;
+    }
+
+    .button-primary {
+        background-color: $primary!important;
+        min-height: 100%;
+        text-align: center;
+    }
+
+    form {
+        color: $darkGrey;
+
+    }
+}
+
+// pure-md
+@media screen and (min-width: 48em) {
+    #mc_embed_signup_scroll {
+        width: 70vw;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+
+        input {
+            margin-top: 0;
+            margin-right: 5px;
+        }
+    }
+}
