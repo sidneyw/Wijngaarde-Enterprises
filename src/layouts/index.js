@@ -5,6 +5,9 @@ import Helmet from 'react-helmet'
 
 const TemplateWrapper = ({ children }) => (
   <div>
+    <Helmet>
+      <link href="https://fonts.googleapis.com/css?family=Bitter|Open+Sans" rel="stylesheet" defer />
+    </Helmet>
     {children()}
   </div>
 )
