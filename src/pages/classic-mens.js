@@ -10,13 +10,13 @@ const ClassicMens = () => (
     <Helmet>
       <meta charset="utf-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-      <title>Classic Mens West</title>
+      <title>Classic Mens Cuts</title>
       <meta name="description" content="A family-owned enterprise of barber shops operating on Long Island." />
       <meta name="robots" content="index, follow" />
       <meta name="author" content="Sidney Wijngaarde" />
 
       <meta property="og:type" content="business.business" />
-      <meta property="og:title" content="Wijngaarde Enterprises - Classic Mens West" />
+      <meta property="og:title" content="Wijngaarde Enterprises - Classic Mens Cuts" />
       <meta property="og:url" content="www.wijnents.com/classicmens.html" />
       <meta property="og:image" content="http://www.wijnents.com/img/classicmens.jpg" />
       <meta property="business:contact_data:street_address" content="525 Main Street" />
@@ -28,7 +28,7 @@ const ClassicMens = () => (
       <link rel="preload" as="image" href={require("../assets/classicmens.jpg")} />
     </Helmet>
 
-    <Jumbo title="Classic Mens West" />
+    <Jumbo title="Classic Mens Cuts" />
 
     <section id="services">
       <div className="pure-g">
