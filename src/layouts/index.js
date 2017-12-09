@@ -6,7 +6,7 @@ import Helmet from 'react-helmet'
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet>
-      <link rel="preload" as="font" href="https://fonts.googleapis.com/css?family=Bitter|Open+Sans" />
+      <link href="https://fonts.googleapis.com/css?family=Bitter|Open+Sans" rel="stylesheet" />
 
       <link rel="apple-touch-icon" sizes="180x180" href={require("../assets/apple-touch-icon.png")} />
       <link rel="icon" type="image/png" sizes="32x32" href={require("../assets/favicon-32x32.png")} />
