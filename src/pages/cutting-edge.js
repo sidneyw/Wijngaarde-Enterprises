@@ -66,12 +66,12 @@ const CuttingEdge = () => (
             </thead>
             <tbody>
               <tr>
-                <td>Mon - Friday</td>
-                <td>08:00am - 06:00pm</td>
+                <td>Monday</td>
+                <td>10:00am - 05:00pm</td>
               </tr>
               <tr>
-                <td>Saturday</td>
-                <td>08:00am - 05:00pm</td>
+                <td>Tuesday - Saturday</td>
+                <td>09:00am - 06:00pm</td>
               </tr>
               <tr>
                 <td>Sunday</td>
