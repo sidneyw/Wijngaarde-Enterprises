@@ -39,14 +39,23 @@
         height: 30vh;
     }
 
+
     #about {
-        background-position: center center;
+        margin: 0;
+        height: 50vh;
         background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        float: left;
 
         color: #fff;
 
         & > .darken {
-            height: 80vh;
+            margin: 0;
             display: flex;
             flex-flow: column;
             justify-content: center;
@@ -54,11 +63,18 @@
         }
 
         h1 {
+            margin: 0;
+            padding: 0 0 10px;
             text-shadow: $headerShadow;
+        }
+
+        p {
+            width: 50%;
         }
     }
 
     #contact {
+        float: right;
         margin: 0;
         padding: 0;
 
@@ -72,17 +88,16 @@
     }
 
     #contact-wrap {
-        background-image: url("../assets/wood-mobile.jpg");
+        height: 70vh;
+        background-color: #000;
         margin:0;
         // background-color: $darkGrey;
         background-position: center center;
         background-size: cover;
         // background-attachment: fixed;
-        height: 80vh;
         justify-content: center;
         align-items: center;
         align-content: center;
-        padding: 20px 0;
 
         .card {
             max-width: 650px;

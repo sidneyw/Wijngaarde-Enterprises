@@ -84,7 +84,7 @@ const IndexPage = () => (
       </div>
     </section>
 
-    <section id="about" style={bgImg(require('../assets/wijnents-about.jpg'))}>
+    <section id="about" style={bgImg(require('../assets/original/wijnents-landing.jpg'))} className="pure-u-1">
       <div className="darken">
         <h1>About Us</h1>
         <p className="pure-u-4-5 pure-u-md-1-2">
@@ -101,10 +101,8 @@ const IndexPage = () => (
       </div>
     </section>
 
-    <section id="contact">
-      <h1 className='z-depth-3'>Get In Touch</h1>
-
-      <div id="contact-wrap" style={bgImg(require('../assets/wood.jpg'))} className="pure-g">
+    <section id="contact" className="pure-u-1">
+      <div id="contact-wrap" className="pure-g">
         <div className="pure-u-2-3 pure-u-md-3-5 card z-depth-2">
           <div className="pure-u-1 pure-u-md-1-2 brand">
             <h3>Wijngaarde Enterprises</h3>
