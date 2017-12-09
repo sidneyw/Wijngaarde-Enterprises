@@ -66,7 +66,7 @@ const IndexPage = () => (
         <div className="pure-u-7-8 pure-u-md-1-3 z-depth-1 card">
           <div id="classicmens" style={bgImg(require('../assets/classicmens.jpg'))}></div>
           <div className="pure-u-1 card-body">
-            <h3>Classic Mens West</h3>
+            <h3>Classic Mens Cuts</h3>
             <p>This community staple has been serving the Islip area now for over 20 years. Stop in or give us a call; we are here to service your needs.</p>
             <div className="card-icon-wrap">
               <Link className="pure-button button-primary" to="/classic-mens">
