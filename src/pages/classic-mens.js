@@ -82,6 +82,10 @@ const ClassicMens = () => (
                 <td>09:00am - 06:00pm</td>
               </tr>
               <tr>
+                <td>Saturday</td>
+                <td>08:00am - 05:00pm</td>
+              </tr>
+              <tr>
                 <td>Sunday</td>
                 <td>Closed</td>
               </tr>
