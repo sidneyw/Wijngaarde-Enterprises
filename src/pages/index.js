@@ -75,7 +75,7 @@ const IndexPage = () => (
               <a className="pure-button button-primary">
                 <i className="fa fa-facebook"></i>
               </a>
-              <a className="pure-button button-google">
+              <a className="pure-button button-google" href="https://www.google.com/maps/place/Classic+Mens+Cuts/@40.7298443,-73.2082352,16z/data=!4m8!1m2!2m1!1sclassic+mens+cuts+islip+ny!3m4!1s0x89e833a45f33dbe5:0x4078932739e7d948!8m2!3d40.729382!4d-73.213524">
                 <i className="fa fa-google"></i>
               </a>
             </div>
