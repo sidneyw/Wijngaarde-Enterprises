@@ -4,6 +4,7 @@ import Helmet from 'react-helmet'
 
 import { bgImg } from '../utils/'
 import Jumbo from '../components/Jumbo'
+import MailChimpForm from '../components/MailChimpForm'
 import '../styles/wijnents.scss'
 
 const IndexPage = () => (
@@ -67,7 +68,9 @@ const IndexPage = () => (
           <div id="classicmens" style={bgImg(require('../assets/classicmens.jpg'))}></div>
           <div className="pure-u-1 card-body">
             <h3>Classic Mens Cuts</h3>
-            <p>This community staple has been serving the Islip area now for over 20 years. Stop in or give us a call; we are here to service your needs.</p>
+            <p>This community staple has been serving the Islip area now for
+              over 20 years. Stop in or give us a call; we are here to service
+              your needs.</p>
             <div className="card-icon-wrap">
               <Link className="pure-button button-primary" to="/classic-mens">
                 <i className="fa fa-external-link"></i>Visit Our Site
@@ -99,6 +102,10 @@ const IndexPage = () => (
           information.
         </p>
       </div>
+    </section>
+
+    <section id="signup" className="z-depth-2 pure-u-1">
+      <MailChimpForm />
     </section>
 
     <section id="contact" className="pure-u-1">
