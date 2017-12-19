@@ -55,7 +55,7 @@ const ClassicMens = () => (
         <div className="pure-u-11-12 pure-u-sm-1-2 pure-u-md-1-3 z-depth-1 card info">
           <h3>We'll Be Waiting For You</h3>
           <p>525 Main Street, Islip NY 11751</p>
-          <a className="pure-u-3-4 pure-button button-secondary" href="https://www.google.com/maps/place/Cutting+Edge+Bayshore/@40.7190364,-73.2545904,17z/data=!3m1!4b1!4m5!3m4!1s0x89e832f2b6ee70c9:0xe553fa09bc10b00c!8m2!3d40.7190324!4d-73.2524017">
+          <a className="pure-u-3-4 pure-button button-secondary" href="https://www.google.com/maps/place/Classic+Mens+Cuts/@40.7298443,-73.2082352,16z/data=!4m8!1m2!2m1!1sclassic+mens+cuts+islip+ny!3m4!1s0x89e833a45f33dbe5:0x4078932739e7d948!8m2!3d40.729382!4d-73.213524">
             <i className="fa fa-map-marker"></i>Get Directions
           </a>
           <a href="tel:631-224-1261" className="pure-u-3-4 pure-button button-secondary">
@@ -74,11 +74,11 @@ const ClassicMens = () => (
             </thead>
             <tbody>
               <tr>
-                <td>Mon</td>
+                <td>Monday</td>
                 <td>10:00am - 05:00pm</td>
               </tr>
               <tr>
-                <td>Tue - Fri</td>
+                <td>Tuesday - Friday</td>
                 <td>09:00am - 06:00pm</td>
               </tr>
               <tr>
@@ -110,14 +110,11 @@ const ClassicMens = () => (
     </section>
 
     <footer>
-      <a className="social-wrap google" href="https://www.google.com/maps/place/Cutting+Edge+Bayshore/@40.7190324,-73.2545904,17z/data=!4m13!1m7!3m6!1s0x89e832f2b6fd3223:0xb8629ddafc2cef59!2s176+W+Main+St,+Bay+Shore,+NY+11706!3b1!8m2!3d40.7190324!4d-73.2524017!3m4!1s0x89e832f2b6ee70c9:0xe553fa09bc10b00c!8m2!3d40.7190324!4d-73.2524017">
+      <a className="social-wrap google" href="https://www.google.com/maps/place/Classic+Mens+Cuts/@40.7298443,-73.2082352,16z/data=!4m8!1m2!2m1!1sclassic+mens+cuts+islip+ny!3m4!1s0x89e833a45f33dbe5:0x4078932739e7d948!8m2!3d40.729382!4d-73.213524">
         <i className="fa fa-google"></i>
       </a>
       <a className="social-wrap facebook" href="https://www.facebook.com/cuttingedge.bayshore">
         <i className="fa fa-facebook"></i>
-      </a>
-      <a className="social-wrap yelp" href="https://www.yelp.com/biz/cutting-edge-hair-stylist-and-mens-care-bay-shore?osq=barbershop">
-        <i className="fa fa-yelp"></i>
       </a>
     </footer>
   </div>
