@@ -18,6 +18,11 @@
 
     input {
         margin-top: 2vh;
+        color: $darkGrey;
+
+        &[type=submit] {
+            color: #fff;
+        }
     }
 
     .button-primary {
@@ -28,7 +33,6 @@
 
     form {
         color: $darkGrey;
-
     }
 }
 
