@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './styles.scss'
+import './styles.scss';
 
 const ChimpForm = `
   <div class="mc_embed_signup pure-u-4-5">
@@ -30,8 +30,6 @@ const ChimpForm = `
   </div>
 `;
 
-const MailChimpForm = () => (
-  <div className="pure-g form-wrap" dangerouslySetInnerHTML={{ __html: ChimpForm }} />
-);
+const MailChimpForm = () => <div className="pure-g form-wrap" dangerouslySetInnerHTML={{ __html: ChimpForm }} />;
 
 export default MailChimpForm;
