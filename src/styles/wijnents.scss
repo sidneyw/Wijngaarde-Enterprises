@@ -6,7 +6,7 @@
 @import 'base';
 .index {
     .landing {
-        background-image: url('../assets/ny-skyline-mobile.jpg');
+        background-image: url('../assets/dark-texture.jpg');
     }
     // ------------------------------------
     // Businesses
@@ -170,11 +170,15 @@
 @media screen and (min-width: 48em) {
     .index {
         .landing {
-            background-image: url('../assets/ny-skyline.jpg');
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: url('../assets/dark-texture.jpg');
             h1 {
                 font-size: 5em;
                 margin-bottom: 5vh;
             }
+            height: 50vh;
         }
 
         #businesses {

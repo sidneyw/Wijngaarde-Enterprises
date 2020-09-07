@@ -42,13 +42,13 @@ const ClassicMens = () => (
         <div className="pure-u-1 pure-u-md-1-2 card">
           <i className="fa fa-calendar"></i>
           <div className="card-body">
-            <h3>No Appointments Needed</h3>
+            <h3>Appointments Required</h3>
           </div>
         </div>
       </div>
     </section>
     <section id="contact">
-      <h1 className="z-depth-1">Come On In</h1>
+      <h1 className="z-depth-1">Call to Schedule an Appointment</h1>
 
       <div id="map" style={bgImg(require('../assets/map-dark.png'))} className="pure-g">
         <div className="pure-u-11-12 pure-u-sm-1-2 pure-u-md-1-3 z-depth-1 card info">

@@ -1,10 +1,10 @@
-@import "../../styles/base";
+@import '../../styles/base';
 
 .landing {
     background-position: center center;
     background-size: cover;
     color: #fff;
-    height: 100vh;
+    height: 60vh;
     width: 100vw;
 
     .darken {
@@ -24,8 +24,6 @@
     }
 }
 
-
 .form-wrap {
     justify-content: center;
 }
-

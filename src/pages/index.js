@@ -34,7 +34,7 @@ const IndexPage = () => (
       <link rel="prefetch" href={require('../assets/wijnents-about.jpg')} as="image" type="image/jpg" />
     </Helmet>
 
-    <Jumbo title="Wijngaarde Enterprises" bgUrl={require('../assets/ny-skyline.jpg')} />
+    <Jumbo title="Wijngaarde Enterprises" />
 
     <section id="businesses">
       <h2>We're Open For Business</h2>
@@ -71,11 +71,11 @@ const IndexPage = () => (
       <div className="darken">
         <h1>About Us</h1>
         <p className="pure-u-4-5 pure-u-md-1-2">
-          At Wijngaarde Enterprises LLC , our mission is to provide our clients with high quality service. We have two
-          Locations; 525 Main Street in Islip and 176 W. Main Street in Bay Shore. Please stop in for a quality haircut
-          by our experienced staff. Our strength is that the staff collectively has over 100 years of experience. We are
-          dedicated to making your experience like none other. Stop in or give us a call to see how we can be of service
-          to you. Visit the site page of each location for more specific information.
+          At Wijngaarde Enterprises LLC , our mission is to provide our clients with high quality service. Our
+          barbershop is located at 525 Main Street. Please stop in for a quality haircut by our experienced staff. Our
+          strength is that the staff collectively has over 100 years of experience. We are dedicated to making your
+          experience like none other. Stop in or give us a call to see how we can be of service to you. Visit the site
+          page of each location for more specific information.
         </p>
       </div>
     </section>
