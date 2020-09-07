@@ -77,15 +77,27 @@ const ClassicMens = () => (
             <tbody>
               <tr>
                 <td>Monday</td>
-                <td>10:00am - 05:00pm</td>
+                <td>Closed</td>
               </tr>
               <tr>
-                <td>Tuesday - Friday</td>
+                <td>Tuesday</td>
+                <td>Closed</td>
+              </tr>
+              <tr>
+                <td>Wednesday</td>
+                <td>09:00am - 06:00pm</td>
+              </tr>
+              <tr>
+                <td>Thursday</td>
+                <td>09:00am - 06:00pm</td>
+              </tr>
+              <tr>
+                <td>Friday</td>
                 <td>09:00am - 06:00pm</td>
               </tr>
               <tr>
                 <td>Saturday</td>
-                <td>08:00am - 05:00pm</td>
+                <td>Closed</td>
               </tr>
               <tr>
                 <td>Sunday</td>

@@ -1,14 +1,13 @@
-@import "cuttingedge";
+@import 'barbershop';
 
 #classic-mens {
     .landing {
-        background-image: url("../assets/classicmens.jpg");
+        background-image: url('../assets/classicmens.jpg');
     }
 }
 
 // pure-sm
 @media screen and (min-width: 35.5em) {
-
 }
 
 // pure-md
@@ -24,9 +23,7 @@
 
 //pure-lg
 @media screen and (min-width: 64em) {
-
 }
 // pure-xl
 @media screen and (min-width: 80em) {
-
 }
