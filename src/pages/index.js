@@ -41,31 +41,6 @@ const IndexPage = () => (
 
       <div className="pure-g card-wrap">
         <div className="pure-u-7-8 pure-u-md-1-3 z-depth-1 card">
-          <div id="bayshore" style={bgImg(require('../assets/cuttingedge.jpg'))}></div>
-          <div className="pure-u-1 card-body">
-            <h3>Cutting Edge Bay Shore</h3>
-            <p>
-              This community staple has been serving the Bay Shore area now for over 55 years. Stop in or give us a
-              call; we are here to service your needs.
-            </p>
-            <div className="card-icon-wrap">
-              <Link className="pure-button button-primary" to="/cutting-edge">
-                <i className="fa fa-external-link"></i>Visit Our Site
-              </Link>
-              <a className="pure-button button-primary" href="https://www.facebook.com/cuttingedge.bayshore">
-                <i className="fa fa-facebook"></i>
-              </a>
-              <a
-                className="pure-button button-google"
-                href="https://www.google.com/maps/place/Cutting+Edge+Bayshore/@40.7190364,-73.2545904,17z/data=!3m1!4b1!4m5!3m4!1s0x89e832f2b6ee70c9:0xe553fa09bc10b00c!8m2!3d40.7190324!4d-73.2524017"
-              >
-                <i className="fa fa-google"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div className="pure-u-7-8 pure-u-md-1-3 z-depth-1 card">
           <div id="classicmens" style={bgImg(require('../assets/classicmens.jpg'))}></div>
           <div className="pure-u-1 card-body">
             <h3>Classic Mens Cuts</h3>
