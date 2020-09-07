@@ -1,9 +1,9 @@
-@import "./vendor/pure-scss/pure-min";
-@import "./vendor/pure-scss/grids-responsive-min";
-@import "shadows";
-@import "./vendor/font-awesome-4.7.0/css/font-awesome.min.css";
+@import './vendor/pure-scss/pure-min';
+@import './vendor/pure-scss/grids-responsive-min';
+@import 'shadows';
+@import './vendor/font-awesome-4.7.0/css/font-awesome.min.css';
 
-@import "base";
+@import 'base';
 .index {
     .landing {
         background-image: url('../assets/ny-skyline-mobile.jpg');
@@ -33,12 +33,12 @@
         // font-size: 2em;
     }
 
-    #bayshore, #classicmens {
+    #bayshore,
+    #classicmens {
         background-position: center center;
         background-size: cover;
         height: 30vh;
     }
-
 
     #about {
         margin: 0;
@@ -54,7 +54,7 @@
         color: #fff;
 
         & > .darken {
-			padding: 30px 0;
+            padding: 30px 0;
             margin: 0;
             display: flex;
             flex-flow: column;
@@ -84,10 +84,10 @@
     }
 
     #contact-wrap {
-		background-image: url('../assets/contact.jpg');
+        background-image: url('../assets/contact.jpg');
         height: 70vh;
         background-color: #000;
-        margin:0;
+        margin: 0;
         background-color: #333;
         background-position: center center;
         background-size: cover;
@@ -106,7 +106,8 @@
             background-color: #fff;
             color: $darkGrey;
 
-            a, a:visited {
+            a,
+            a:visited {
                 color: $darkGrey;
             }
         }
@@ -134,11 +135,15 @@
 
             font-size: 1.3em;
 
-            p { text-align: center; }
+            p {
+                text-align: center;
+            }
             a {
                 margin-top: 10px;
                 text-align: left;
-                i { margin-right: 10px; }
+                i {
+                    margin-right: 10px;
+                }
             }
         }
 
@@ -148,19 +153,17 @@
         }
     }
 
-	#signup {
-		padding: 30px 0;
-	}
+    #signup {
+        padding: 30px 0;
+    }
 }
 
 // pure-xl
 @media screen and (min-width: 80em) {
-
 }
 
 //pure-lg
 @media screen and (min-width: 64em) {
-
 }
 
 // pure-md
@@ -184,12 +187,7 @@
             justify-content: center;
         }
 
-        .card:first-of-type {
-            margin-right: 5vw;
-        }
-
         #contact .card {
-
             .brand {
                 align-self: center;
                 font-size: 2.5em;
@@ -199,7 +197,9 @@
 
             .social {
                 font-size: 3em;
-                a { margin: 5vh 2vw 0; }
+                a {
+                    margin: 5vh 2vw 0;
+                }
             }
         }
     }
@@ -207,5 +207,4 @@
 
 // pure-sm
 @media screen and (min-width: 35.5em) {
-
 }
